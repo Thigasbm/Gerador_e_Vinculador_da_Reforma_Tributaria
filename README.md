@@ -185,7 +185,7 @@ Descricao Reduzida - coluna 3
 Código NCM/NBS     - coluna 5
 ````
 
-![[Pasted image 20260707173642.png]]
+![](zzzImagens/p2.png)
 
 #### Rodando o executável
 
@@ -204,13 +204,13 @@ O sistema:
 
 Ao finalizar o processo, o gerador apresentará a mensagem "Pressione ENTER para Fechar".
 
-![[Pasted image 20260707173955.png]]
+![](zzzImagens/p3.png)
 
 No Gdoor vá em **Produtos/Serviços** > **Reforma Tributária**, irá listar os perfis criados:
 
-![[Pasted image 20260707174346.png|400]]
+![](zzzImagens/p4.png)
 
 Na tabela do estoque, irão constar os itens com suas respectivas tributações configuradas:
 
-![[Pasted image 20260707174423.png]]
+![](zzzImagens/p5.png)
 *A versão de amostra limita aos primeiros 9 itens listados no estoque*
