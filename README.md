@@ -173,7 +173,7 @@ Para gerar os perfis de tributação corretamente, você deve ter o executável 
 classificacao_tributaria_organizada.xlsx
 ````
 
-![](zzz Imagens/p1.png)
+![](zzzImagens/p1.png)
 
 Você pode informar os dados dentro da planilha nas colunas correspondentes, adicionar ou apagar as linhas da planilha, ou até criar uma nova contendo os dados que necessita, desde que siga a ordem de colunas da planilha original.
 
