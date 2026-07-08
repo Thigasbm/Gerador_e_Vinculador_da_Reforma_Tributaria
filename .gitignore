@@ -1,0 +1,23 @@
+# Ambientes virtuais
+GeradorAmostra/.venv/
+GeradorPremium/.venv/
+GeradorStandart/.venv/
+
+# Cache do Python
+**/__pycache__/
+*.pyc
+
+# Build do PyInstaller
+**/build/
+**/dist/
+
+# VS Code
+.vscode/
+**/.vscode/
+
+# PDF
+README.pdf
+
+build/
+classificacao_tributaria_organizada-original.xlsx
+**/.venv/
