@@ -155,7 +155,7 @@ print("ncms carregados:", len(dados_planilha))
 ## Versões
 
 
-Há três versões do executável, cada uma é encontrada em uma Branch separada:
+Há três versões do executável, cada uma é encontrada em uma pasta separada:
 
 **Gerador e Vinculador Premium:** Gera os perfis e permite informar as aliquotas de redução, diferimento e monofásica;
 
