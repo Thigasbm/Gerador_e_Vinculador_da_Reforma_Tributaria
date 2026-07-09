@@ -36,7 +36,7 @@ for linha in aba_cst.iter_rows(min_row=2, values_only=True):
         "aliqMonCBS": linha[11],
         "fatorQtdBCMon": linha[12]
     }
-    print(dados_planilha[ncm], "\n")
+    # print(dados_planilha[ncm], "\n")
               
 print("ncms carregados:", len(dados_planilha))
 # print(linha)

@@ -25,7 +25,9 @@ def iniciarPrograma(opcao):
             return 1
         except Exception as e:
             import traceback
-            traceback.print_exc(e)        
+            print (e)
+            traceback.print_exc()     
+            input("Pressione enter para fechar...")   
         
     elif opcao=="n":
         print("Finalizando programa...")
