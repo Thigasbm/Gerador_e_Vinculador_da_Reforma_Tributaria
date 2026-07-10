@@ -1,6 +1,7 @@
 import conexao_fdb as fdb
 import planilha
 import time
+from decimal import Decimal
 
 
 def sql():
@@ -74,15 +75,15 @@ def sql():
         chave = (
             str(cst).strip(),
             str(cclasstrib).strip(),
-            float(redIbsMun),
-            float(redCbs),
-            float(redIbsUf),
-            float(difIbsMun),
-            float(difCbs),
-            float(difIbsUf),
-            float(aliqMonIbs),
-            float(aliqMonCbs),
-            float(fatorQtdBcMon)
+            redIbsMun,
+            redCbs,
+            redIbsUf,
+            difIbsMun,
+            difCbs,
+            difIbsUf,
+            aliqMonIbs,
+            aliqMonCbs,
+            fatorQtdBcMon
         )
 
         tributacoes[chave] = id_
@@ -106,17 +107,17 @@ def sql():
         cst = str(dados["cst"]).strip()
         cclasstrib = str(dados["cClassTrib"]).strip()
         
-        redIbsMun = float(dados["redIBSMUN"] or 0)
-        redCbs = float(dados["redCBS"] or 0)
-        redIbsUf = float(dados["redIBSUF"] or 0)
+        redIbsMun = Decimal(str(dados["redIBSMUN"] or 0))
+        redCbs = Decimal(str(dados["redCBS"] or 0))
+        redIbsUf = Decimal(str(dados["redIBSUF"] or 0))
         
-        difIbsMun = float(dados["difIBSMUN"] or 0)
-        difCbs = float(dados["difCBS"] or 0)
-        difIbsUf = float(dados["difIBSUF"] or 0)
+        difIbsMun = Decimal(str(dados["difIBSMUN"] or 0))
+        difCbs = Decimal(str(dados["difCBS"] or 0))
+        difIbsUf = Decimal(str(dados["difIBSUF"] or 0))
         
-        aliqMonIbs = float(dados["aliqMonIBS"] or 0)
-        aliqMonCbs = float(dados["aliqMonCBS"] or 0)
-        fatorQtdBcMon = float(dados["fatorQtdBCMon"] or 0)
+        aliqMonIbs = Decimal(str(dados["aliqMonIBS"] or 0))
+        aliqMonCbs = Decimal(str(dados["aliqMonCBS"] or 0))
+        fatorQtdBcMon = Decimal(str(dados["fatorQtdBCMon"] or 0))
 
         # pega IDs sem consultar banco
         id_cst_ibscbs = csts.get(cst)

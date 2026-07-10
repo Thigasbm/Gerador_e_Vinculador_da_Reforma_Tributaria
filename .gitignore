@@ -1,0 +1,25 @@
+# Ambientes virtuais
+GeradorAmostra/.venv/
+GeradorPremium/.venv/
+GeradorStandart/.venv/
+.venvPy32bit3-11-9
+
+**main.spec
+
+# Cache do Python
+**/__pycache__/
+*.pyc
+
+# Build do PyInstaller
+**/build/
+**/dist/
+
+# VS Code
+.vscode/
+**/.vscode/
+
+# PDF
+README.pdf
+
+build/
+classificacao_tributaria_organizada-original.xlsx

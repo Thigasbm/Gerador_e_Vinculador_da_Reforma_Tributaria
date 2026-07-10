@@ -16,6 +16,7 @@ integracao.py
 main.py
 planilha.py
 ````
+*Para Firebird 5, foi utilizado um interpretador de 32 bits, versão do Python 3.11.9. Interpretadores de 64 bits dificultam o reconheciento da Dll fbclient.dll*
 
 #### conexao_fdb.py
 
