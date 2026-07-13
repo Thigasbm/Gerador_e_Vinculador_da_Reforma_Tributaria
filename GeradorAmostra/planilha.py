@@ -1,6 +1,6 @@
 from openpyxl import load_workbook
 
-planilha = "classificacao_tributaria_organizada.xlsx"
+planilha = "classificacao_tributaria_organizada-aliquota.xlsx"
 
 # ler a planilha
 wb = load_workbook(planilha)    
